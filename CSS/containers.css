@@ -1,0 +1,33 @@
+html,body{
+	width:99.5%;
+	background-color: black;
+}
+.clearFloat{
+	clear:both;
+	height: 0px;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.headerContainer{
+	background-color: red;
+}
+
+.container{
+}
+
+.mainContainer{
+	background-color: blue;
+	width: 75%;
+	float: left;
+}
+
+.secondaryContainer{
+	background-color: green;
+	width: 25%;
+	float: left;
+}
+
+.footerContainer{
+	background-color: yellow;
+}
