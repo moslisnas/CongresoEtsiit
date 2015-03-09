@@ -2,18 +2,13 @@ html,body{
 	width:99.5%;
 	background-color: black;
 }
-.clearFloat{
-	clear:both;
-	height: 0px;
-	font-size: 1px;
-	line-height: 0px;
-}
 
 .headerContainer{
 	background-color: red;
 }
 
 .container{
+	font-size: 5em;
 }
 
 .mainContainer{
@@ -30,4 +25,8 @@ html,body{
 
 .footerContainer{
 	background-color: yellow;
+}
+
+.clearFloat{
+	clear:both;
 }
