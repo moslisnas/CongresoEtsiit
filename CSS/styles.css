@@ -68,7 +68,7 @@ header h1 a span {
 	list-style:none;
 }
 .boxes li:hover {
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+	/*background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);*/
 	box-shadow: 0px 5px 4px 0px #464646;
 	margin:0 16px;
 	list-style:none;
@@ -82,13 +82,13 @@ header h1 a span {
 }
 .boxes li button {
 	margin:10px 20px;
-	background:#749b29;
+	/*background:#749b29;*/
 	padding:3px 10px;
 	cursor:pointer;
-	font-size:24px;
-	font-family: 'Lobster', sans-serif;
-	border:0;
-	color:#ffffff;
+	font-size:40px;
+	font-family: 'Belgrano', sans-serif;
+	border:1px;
+	color:#749b29;
 }
 .rightList {
 	float: right; 
@@ -173,8 +173,8 @@ ul#navlist {
 }
 #navlist a { 
 	padding: 10px 20px;
-	font-size:24px;
-	font-family: 'Lobster', sans-serif;
+	font-size:22px;
+	font-family: 'Belgrano', sans-serif;/*Lobster*/
 	text-decoration:none;
 	color:#2b2b2b;	
 	text-shadow: 0px 0px, 1px 1px #ffffff;
