@@ -19,7 +19,8 @@ a {
 	text-decoration:underline;
 }
 p {
-	line-height:140%;	
+	line-height:140%;
+	margin-bottom: 1%;	
 }
 h1 {
 	font-size:30px;
@@ -50,7 +51,7 @@ header h1 {
 header h1 a {
 	font-family: 'Lobster', sans-serif;
 	font-size: 42px;
-	color:#2b2b2b;
+	color:#1a66a1;
 	text-decoration:none;
 }
 header h1 a span {
@@ -58,10 +59,14 @@ header h1 a span {
 }
 .boxes {
 	padding:30px 0;
+	margin-bottom: 20%;
 }
 .boxes li {
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
 	box-shadow: 0px 5px 4px 0px #808080;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
 	width:205px;
 	float:left;
 	margin:0 16px;
@@ -178,18 +183,28 @@ ul#navlist {
 	text-decoration:none;
 	color:#2b2b2b;	
 	text-shadow: 0px 0px, 1px 1px #ffffff;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
 }
 #navlist a:hover {
 	color: #fff;
 	text-decoration: none;
 	text-shadow:none;
 	background:#1a66a1;
+	moz-box-shadow:inset 0px 0px 7px 3px #363B40;
+	-webkit-box-shadow:inset 0px 0px 7px 3px #363B40;
+	box-shadow:inset 0px 0px 7px 3px #363B40;
 }
 #navlist #active a {
-	color: #fff;
+	color: #000000;
 	text-decoration: none;
 	text-shadow:none;
-	background:#1a66a1;
+	background:#ffffff;
+	border: solid #000000 1px;
+	moz-box-shadow:inset 0px 0px 7px 3px #363B40;
+	-webkit-box-shadow:inset 0px 0px 7px 3px #363B40;
+	box-shadow:inset 0px 0px 7px 3px #363B40;
 }
 /*--------------------------------------------------------------------------------------------*/
 /********* end MAIN NAV ********/
