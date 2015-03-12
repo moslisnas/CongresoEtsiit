@@ -34,18 +34,14 @@ h2 {
 	font-family: 'Lobster', sans-serif;
 }
 .container { 
-	width: 80%;
-	margin: auto;
-}
-.container p , .container h1{ 
-	width: 90%;
-	margin: auto;
+	width: 960px;
+	margin: 0 auto;
 }
 header {
 	background:url(../images/headerTop.png) repeat-x;
 }
 header .headerContainer {
-	width:90%;
+	width:960px;
 	margin:0 auto;
 } 
 header h1 {
@@ -62,28 +58,28 @@ header h1 a span {
 	color:#1a66a1;
 }
 .boxes {
-	text-align: center;
+	padding:30px 0;
+	margin-bottom: 20%;
 }
 .boxes li {
-	list-style:none;
-}
-/*.boxes li:hover {*/
-	/*background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);*/
-	/*box-shadow: 0px 5px 4px 0px #464646;
-	margin:0 16px;
-	list-style:none;
-}*/
-.imagenGrande{
-	width: 90%;
-}
-.boxes li img {
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
 	box-shadow: 0px 5px 4px 0px #808080;
 	-moz-border-radius:17px;
 	-webkit-border-radius:17px;
 	border-radius:17px;
-	margin:20px;
-	padding: 20px;
+	width:205px;
+	float:left;
+	margin:0 16px;
+	list-style:none;
+}
+.boxes li:hover {
+	/*background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);*/
+	box-shadow: 0px 5px 4px 0px #464646;
+	margin:0 16px;
+	list-style:none;
+}
+.boxes li img {
+	margin:20px 20px 10px 20px;
 	border:1px solid #e3e3e3;
 }
 .boxes li h2, .boxes li p {
@@ -101,12 +97,12 @@ header h1 a span {
 }
 .rightList {
 	float: right; 
-	width: 345px;
-	padding:20px 70px 20px 0;
+	width: 390px;
+	padding: 1% 70px 1% 0;
 }
 .rightList li {
 	list-style:none;
-	padding:15px 0 15px 45px;
+	padding: 1% 0 0 1%;
 	
 }
 .rightList li a {
@@ -117,20 +113,23 @@ header h1 a span {
 	text-decoration:underline;
 	color:#8dc73f;
 }
-.leftList {
-	list-style:none; 
+.leftList { 
 	margin: 0 480px 0 70px;
-	padding:20px 0 20px 0;
+	padding: 1.4% 0 1% 0;
 }
+.footerContent ul{
+	list-style-type:none;
+}
+
 .profilesList {
-	padding:15px 0 10px 0;
+	padding:2% 0 10px 0;
 }
 .floatPic {
 	float:left;
 	margin:0 15px 10px 0;
 }
 .footerTop {
-	background:url(../images/footerTop.png) repeat-x;
+	/*background:url(../images/footerTop.png) repeat-x;*/
 	height:2px;
 } 
 .footerBottom {
