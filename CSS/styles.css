@@ -103,7 +103,7 @@ header h1 a span {
 .rightList li {
 	list-style:none;
 	padding:15px 0 15px 45px;
-	background:url(../images/Checkmark.png) no-repeat left 17px;
+	
 }
 .rightList li a {
 	text-decoration:none;
@@ -113,7 +113,8 @@ header h1 a span {
 	text-decoration:underline;
 	color:#8dc73f;
 }
-.leftList { 
+.leftList {
+	list-style:none; 
 	margin: 0 480px 0 70px;
 	padding:20px 0 20px 0;
 }
@@ -136,11 +137,12 @@ header h1 a span {
 	background:#000000;
 	color:#dbdbdb;
 	text-shadow:none;
+	font-size:12px;
 }
 .footerContent {
-	width:960px;
+	width:80%;
 	margin:0 auto;
-	padding:20px 0;
+	padding:1% 0;
 } 
 .copyright p {
 	text-align:center;
@@ -298,7 +300,7 @@ ul#navlist {
 	}
 	.leftList {
 		margin:0;
-		padding:0 20px;
+		padding:0 0px;
 		width: 90%;
 	}
 	.slider {
