@@ -99,9 +99,23 @@ header h1 a span {
 }
 .boxes li button {
 	margin:10px 20px;
+	background: rgba(255,255,255,0.6);
+	padding:3px 10px;
+	cursor: pointer;
+	font-size:30px;
+	font-family: 'Belgrano', sans-serif;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	color:#394D14;
+}
+.boxes li button:hover {
+	background-color:rgba(255,255,255,1);
+}
+.boxes li span {
+	margin:10px 20px;
 	background: rgba(0,0,0,0);
 	padding:3px 10px;
-	cursor:pointer;
 	font-size:40px;
 	font-family: 'Belgrano', sans-serif;
 	border:1px;
@@ -186,8 +200,8 @@ header h1 a span {
 }
 #logo{
 	margin-top: 5%;
-	height:120px;
-	width:120px;
+	height:100px;
+	width:100px;
 	float:left;
 }
 /*--------------------------------------------------------------------------------------------*/
@@ -252,19 +266,33 @@ header h1 a span {
 /*--------------------------------------------------------------------------------------------*/
 .boxesIncripcion{
 	width: 100%;
+	text-align: center;
 }
 
-#cuota1{
-	width: 49%;
+.cuota{
 	text-align: center;
 	float: left;
 }
 
-#cuota2{
-	width: 49%;
-	text-align: center;
-	float: right;
+.cuota li img{
+	width: 300px;
+	height: 210px;
 }
+
+#cuota1{
+	width: 32.5%;
+}
+
+#cuota2{
+	width: 33%;
+	margin-left: 1%;
+}
+
+#cuota3{
+	width: 32.5%;
+	margin-left: 1%;
+}
+
 /*--------------------------------------------------------------------------------------------*/
 /********* end INSCRIPCIÓN ********/
 /*--------------------------------------------------------------------------------------------*/
@@ -321,7 +349,7 @@ header h1 a span {
 /*--------------------------------------------------------------------------------------------*/
 
 #navcontainer {
-	margin-top: 12.5%;
+	margin-top: 10%;
 	float:right;
 	padding: 0;
 }
