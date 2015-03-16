@@ -26,15 +26,31 @@ h1 {
 	font-size:30px;
 	color:#1a66a1;
 	font-family: 'Lobster', sans-serif;
-	padding:30px 0 0 0;
+	padding: 8% 0 2% 0;
 }
 h2 {
 	font-size:24px;
 	color:#1a66a1;
 	font-family: 'Lobster', sans-serif;
 }
+
+h3 {
+	font-size:20px;
+	color:#000000;
+	font-family:'Belgrano', sans-serif;
+	margin:3% 0 2% 0;
+	text-shadow: 0px 0px, 1px 1px #ffffff;
+	background: -moz-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.7));
+}
+h4 {
+	font-size:20px;
+	color:#000000;
+	font-family:'Belgrano', sans-serif;
+	margin:1% 0 1% 1%;
+	text-shadow: 0px 0px, 1px 1px #ffffff;
+}
 .container { 
-	width: 960px;
+	width: 80%;
 	margin: 0 auto;
 }
 header {
@@ -87,7 +103,7 @@ header h1 a span {
 }
 .boxes li button {
 	margin:10px 20px;
-	/*background:#749b29;*/
+	background: rgba(0,0,0,0);
 	padding:3px 10px;
 	cursor:pointer;
 	font-size:40px;
@@ -165,9 +181,115 @@ header h1 a span {
     font-size: 1px;
     line-height: 0px;
 }
+.listContainer {
+	padding: 0 0 0 1.5%;
+}
+.listContainer li{
+	margin: 0 0 0.5% 0;
+}
+#logo{
+	height:90px;
+	width:90px;
+	padding: 3% 0 0 4%;
+	float:left;
+}
+/*--------------------------------------------------------------------------------------------*/
+/********* begin INFO ********/
+/*--------------------------------------------------------------------------------------------*/
+
+.info{
+	list-style-type: none;
+	margin: 1% 0 1% 0;
+}
+
+.imgAlignCenter{
+    text-align:center;
+    margin-top:2%;
+    margin-bottom:2%;
+    padding:0;
+}
+
+.imgAlignLeft{
+	margin:0.5% 1.5% 1.5% 0;
+	float:left;
+}
+.bottomSpace{
+	margin:0 0 10% 0;
+}
+.travelMethod{
+	padding: 0.5% 0 1% 0; 
+	overflow:auto;
+	border: 1px solid #000000;
+}
+#travelContainer{
+	border: 1px solid #000000;
+	font-size: 14px;
+	width:80%;
+	text-align:center;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+}
+.floatTravelLeft{
+	float:left;
+	width:80px;
+}
+.floatTravelRight{
+	text-align:left;
+	width:80%;
+	float:left;
+}
+/*--------------------------------------------------------------------------------------------*/
+/********* end INFO ********/
+/*--------------------------------------------------------------------------------------------*/
+/********* begin ACTIVITIES ********/
+/*--------------------------------------------------------------------------------------------*/
+.boxesActivities {
+	padding:2% 0;
+	margin:0 0 2% 0;
+}
+.boxesActivities li {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 5px 4px 0px #808080;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	width:100%;
+	margin:2% 0% 2% 0;
+	padding:0 0 2% 0;
+	list-style:none;
+}
+
+.boxesActivities li:hover {
+	box-shadow: 0px 5px 4px 0px #464646;
+	list-style:none;
+}
+.boxesActivities li img {
+	max-width:98%;
+	margin:1% 0.8% 0 0;
+	border:1px solid #e3e3e3;
+}
+.boxesActivities li h2, .boxes li p {
+	padding:0 20px;
+}
+.boxesActivities li button {
+	margin:10px 20px;
+	background: rgba(0,0,0,0);
+	padding:3px 10px;
+	cursor:pointer;
+	font-size:40px;
+	font-family: 'Belgrano', sans-serif;
+	border:1px;
+	color:#749b29;
+}
+.boxesActivities p{
+	margin: 0 0 0 1%;
+	max-width:80%;
+}
+/*--------------------------------------------------------------------------------------------*/
+/********* end ACTIVITIES ********/
 /*--------------------------------------------------------------------------------------------*/
 /********* begin MAIN NAV ********/
 /*--------------------------------------------------------------------------------------------*/
+
 #navcontainer {
 	float:right;
 	padding:60px 0 0 0;
@@ -270,10 +392,59 @@ ul#navlist {
 /*--------------------------------------------------------------------------------------------*/
 /********* end SLIDER ********/
 /*--------------------------------------------------------------------------------------------*/
+/********* begin TALK TABLES ********/
+/*--------------------------------------------------------------------------------------------*/
+.talks{
+	float:left;
+	width:100%;
+	font-family: "Belgrano",sans-serif;
+	margin: 4% 0 8% 0;
+}
+
+#talksContent{
+	
+}
+
+#talksContent table{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+	border-radius: 17px;
+	box-shadow: 0 5px 4px 0 #808080;
+	vertical-align:baseline;
+	width:90%;
+	text-align:justify;
+	margin: 0 5%;
+	border-collapse: collapse;
+}
+
+#talksContent table .separator{
+	
+	text-align:center;
+	padding: 0 0 1% 0;
+	border-bottom:2px solid #2a2a2a;
+}
+
+table .separator td{
+	
+	background-color
+}
+
+table .leftTD{
+	width:20%;
+	padding: 1% 0 0 1%;
+}
+
+table .rightTD{
+	vertical-align: baseline;
+	padding:1% 0 0 2%;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/********* end TALK TABLES ********/
+/*--------------------------------------------------------------------------------------------*/
 /********* begin MEDIA QUERIES ********/
 /*--------------------------------------------------------------------------------------------*/
 /* for 980px or less */
-@media screen and (max-width: 960px) {
+/*@media screen and (max-width: 80%) {
 	.container {
 		width: 98%;
 	}
@@ -286,9 +457,9 @@ ul#navlist {
 	.slider {
 		width:99.6%;
 	}
-}
+}*/
 /* for 768px or less */
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
 	header h1 {
     	float: left;
 		padding: 45px 0 0 10px;
@@ -341,9 +512,9 @@ ul#navlist {
 	.boxes li img {
 		text-align:center;
 	}
-}
+}*/
 /* for 480px or less */
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
 	header h1 {
     	float: none;
 		padding: 25px 20px 0 0;
@@ -376,7 +547,7 @@ ul#navlist {
 	#navlist a { 
 		padding: 0 10px;
 	}
-}
+}*/
 img {
 	max-width: 100%;
 	height: auto;
