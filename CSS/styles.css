@@ -26,7 +26,7 @@ h1 {
 	font-size:30px;
 	color:#1a66a1;
 	font-family: 'Lobster', sans-serif;
-	padding: 8% 0 2% 0;
+	padding: 3% 0 2% 0;
 }
 h2 {
 	font-size:24px;
@@ -75,7 +75,6 @@ header h1 a span {
 	color:#1a66a1;
 }
 .boxes {
-	margin-bottom: 20%;
 }
 .boxes li {
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
@@ -154,6 +153,7 @@ header h1 a span {
 	color:#dbdbdb;
 	text-shadow:none;
 	font-size:12px;
+	font-weight: bold;;
 }
 .footerContent {
 	width:80%;
@@ -211,7 +211,8 @@ header h1 a span {
 	float:left;
 }
 .bottomSpace{
-	margin:0 0 10% 0;
+	clear: both;
+	margin:0 0 5% 0;
 }
 .travelMethod{
 	padding: 0.5% 0 1% 0; 
@@ -249,7 +250,21 @@ header h1 a span {
 /*--------------------------------------------------------------------------------------------*/
 /********* begin INSCRIPCIÓN ********/
 /*--------------------------------------------------------------------------------------------*/
+.boxesIncripcion{
+	width: 100%;
+}
 
+#cuota1{
+	width: 49%;
+	text-align: center;
+	float: left;
+}
+
+#cuota2{
+	width: 49%;
+	text-align: center;
+	float: right;
+}
 /*--------------------------------------------------------------------------------------------*/
 /********* end INSCRIPCIÓN ********/
 /*--------------------------------------------------------------------------------------------*/
@@ -258,7 +273,7 @@ header h1 a span {
 /********* begin ACTIVITIES ********/
 /*--------------------------------------------------------------------------------------------*/
 .boxesActivities {
-	padding:2% 0;
+	padding:0;
 	margin:0 0 2% 0;
 }
 .boxesActivities li {
