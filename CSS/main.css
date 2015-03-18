@@ -151,10 +151,6 @@ ul#navlist {
 .profilesList {
 	padding:2% 0 10px 0;
 }
-.floatPic {
-	float:left;
-	margin:0 15px 10px 0;
-}
 .footerTop {
 	/*background:url(../images/footerTop.png) repeat-x;*/
 	height:2px;
@@ -196,12 +192,6 @@ ul#navlist {
 .leftList { 
 	margin: 0 480px 0 70px;
 	padding: 1.4% 0 1% 0;
-}
-.listContainer {
-	padding: 0 0 0 1.5%;
-}
-.listContainer li{
-	margin: 0 0 0.5% 0;
 }
 /*--------------------------------------------------------------------------------------------*/
 /********* end containers ********/

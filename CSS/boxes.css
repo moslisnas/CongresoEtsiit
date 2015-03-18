@@ -7,7 +7,7 @@
 	margin-bottom: 2%;
 	list-style:none;
 }
-.boxes li:hover {
+.boxes:hover, .boxes li:hover {
 	box-shadow: 0px 5px 4px 0px #464646;
 }
 .boxes li img {
@@ -61,7 +61,6 @@
 	padding:0 0 2% 0;
 	list-style:none;
 }
-
 .boxesActivities li:hover {
 	box-shadow: 0px 5px 4px 0px #464646;
 	list-style:none;
