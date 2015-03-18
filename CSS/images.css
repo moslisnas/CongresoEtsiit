@@ -1,0 +1,20 @@
+.bigImg{
+	width: 96%;
+	padding: 2%;
+	text-align: center;
+}
+.middleImg{
+	width: 96%;
+	padding: 2%;
+	text-align: center;
+}
+.imgAlignCenter{
+    text-align:center;
+    margin-top:2%;
+    margin-bottom:2%;
+    padding:0;
+}
+.imgAlignLeft{
+	margin:0.5% 1.5% 1.5% 0;
+	float:left;
+}
