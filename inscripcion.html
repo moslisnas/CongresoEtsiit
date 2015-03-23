@@ -21,7 +21,7 @@ Released for free under a Creative Commons Attribution 3.0 Unported License (CC 
 <body>
 <header>
     <div class="headerContainer">
-        <div id="logo"><a href="index.html"><img src="images/logo_ceiie.png" alt=""></img></a></div>
+        <div id="logo"><a href="index.html"><img src="images/logo_ceiie.png" alt="Logotipo"></img></a></div>
         <div id="navcontainer">
             <ul id="navlist">
                 <li ><a href="index.html">Inicio</a></li>
@@ -47,7 +47,7 @@ Released for free under a Creative Commons Attribution 3.0 Unported License (CC 
 			<ul>
                 <div id="cuota1" class="cuota">
                     <li>
-                        <img src="images/inscripcion1.jpg" style="width:85%;height:85%" alt=""><h2>Cuota profesores:</h2>
+                        <img src="images/inscripcion1.jpg" style="width:85%;height:85%" alt="Profesor"><h2>Cuota profesores:</h2>
                         <p>Dirigidas a docentes de la Universidad de Granada.</p>
                         <span>2,95€</span>
                         <button onClick="showForm()">¡Apuntarse!</button>
@@ -55,7 +55,7 @@ Released for free under a Creative Commons Attribution 3.0 Unported License (CC 
                 </div>
                 <div id="cuota2" class="cuota">
                     <li>
-                        <img src="images/inscripcion2.jpg" style="width:85%;height:85%" alt=""><h2>Cuota normal:</h2>
+                        <img src="images/inscripcion2.jpg" style="width:85%;height:85%" alt="Usuario"><h2>Cuota normal:</h2>
                         <p>Dirigidas a cualquier persona interesada en el evento que no pertenezca a la Universidad de Granada.</p>
                         <span>4,95€</span>
                         <button onClick="showForm()">¡Apuntarse!</button>
@@ -63,7 +63,7 @@ Released for free under a Creative Commons Attribution 3.0 Unported License (CC 
                 </div>
                 <div id="cuota3" class="cuota">
                     <li>
-                        <img src="images/inscripcion3.jpg" style="width:85%;height:85%" alt=""><h2>Cuota alumnos:</h2>
+                        <img src="images/inscripcion3.jpg" style="width:85%;height:85%" alt="Alumno"><h2>Cuota alumnos:</h2>
                         <p>Dirigidas a alumnos matriculados en el año vigente en la Universidad de Granada.</p>
                         <span>3,95€</span>
                         <button onClick="showForm()">¡Apuntarse!</button>
@@ -74,7 +74,21 @@ Released for free under a Creative Commons Attribution 3.0 Unported License (CC 
         <!-- end .boxes -->
         <div id="form">
             <div class="clearfloat"></div>
-            <h1>HOLA QUE PASA FORMULARIO</h1>
+            <div class="boxes boxFormulario">
+                <h2>Rellene sus datos:</h2>
+                <form action="#" method="post">
+                    <h4>Usuario*</h4><input type="text" name="nombre" value="" placeholder="Nombre de Usuario">
+                    <h4>Constraseña*</h4><input type="text" name="contraseña" value="" placeholder="Contraseña">
+                    <h4>Nombre*</h4><input type="text" name="nombre" value="" placeholder="Nombre">
+                    <h4>Apellidos</h4><input type="text" name="nombre" value="" placeholder="Apellidos">
+                    <h4>Localidad</h4><input type="text" name="nombre" value="" placeholder="Localidad">
+                    <h4>Correo Electrónico*</h4><input type="text" name="nombre" value="" placeholder="Correo-E">
+                    <h4>Teléfono</h4><input type="text" name="nombre" value="" placeholder="Teléfono">
+                    <h4>Despacho</h4><input type="text" name="nombre" value="" placeholder="Despacho">
+                    <h4>Institución o academia</h4><input type="text" name="nombre" value="" placeholder="Institución o academia">
+                    <p> <button onclick="cambiarLocationRegistro()" type="button">Registrarse</button> </p>
+                </form>
+            </div>
         </div>
     </section>
 </div>
@@ -88,7 +102,7 @@ Released for free under a Creative Commons Attribution 3.0 Unported License (CC 
             <div class="rightList">
                 <ul>
                     <li>
-                    <div id="map canvas"><iframe width="380" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=E.T.S.+de+Ingenierías+Informática+y+de+Telecomunicación,+Granada,+Spain&key=AIzaSyCAIJpaS6cvTDOoy0SDy-g6xnbZ9fHwehg"></iframe></div>
+                    <div id="map canvas"><iframe width="380" height="200" alt="Google Maps:Etsiit" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=E.T.S.+de+Ingenierías+Informática+y+de+Telecomunicación,+Granada,+Spain&key=AIzaSyCAIJpaS6cvTDOoy0SDy-g6xnbZ9fHwehg"></iframe></div>
                     </li>
                     <li>Dirección: C\ Periodista Daniel Saucedo Aranda, 18071 Granada</li>
                 </ul>

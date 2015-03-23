@@ -1,4 +1,4 @@
 function showForm(){
 	var form = document.getElementById("form");
-	form.display = "";
+	form.style.display = "inline";
 }

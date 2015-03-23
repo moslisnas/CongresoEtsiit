@@ -18,7 +18,7 @@
 .boxes li h2, .boxes li p {
 	padding:0 20px;
 }
-.boxes li button {
+.boxes button {
 	margin:10px 20px;
 	background: rgba(255,255,255,0.6);
 	padding:3px 10px;
@@ -30,7 +30,7 @@
 	border-radius:17px;
 	color:#394D14;
 }
-.boxes li button:hover {
+.boxes button:hover {
 	background-color:rgba(255,255,255,1);
 }
 .boxes li span {
@@ -97,6 +97,9 @@
 .boxesIncripcion{
 	width: 100%;
 	text-align: center;
+}
+.boxFormulario h3, .boxFormulario h2{
+	padding: 2%;
 }
 /*--------------------------------------------------------------------------------------------*/
 /********* end INSCRIPCIÓN ********/
