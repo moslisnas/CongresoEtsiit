@@ -85,39 +85,42 @@ Released for free under a Creative Commons Attribution 3.0 Unported License (CC 
                     </div>
                     <div class="fields">
                         <div>
-                            <label>Usuario*</label>
-                            <input type="text" name="usuario" value="" placeholder="Nombre de Usuario">
+                            <label for="usuario">Usuario*</label>
+                            <input type="text" id="usuario" value="" placeholder="Nombre de Usuario">
                         </div>
                         <div>
-                            <label>Constraseña*</label>
-                            <input type="text" name="contraseña" value="" placeholder="Contraseña">
+                            <label for="contrasenia">Constraseña*</label>
+                            <input type="password" id="contrasenia" value="" placeholder="Contraseña">
                         </div>
                         <div>
-                            <label>Nombre*</label>
-                            <input type="text" name="nombre" value="" placeholder="Nombre">
+                            <label for="nombre">Nombre*</label>
+                            <input type="text" id="nombre" value="" placeholder="Nombre">
                         </div>
                         <div>
-                            <label>Apellidos*</label>
-                            <input type="text" name="apellidos" value="" placeholder="Apellidos">
+                            <label for="apellidos">Apellidos*</label>
+                            <input type="text" id="apellidos" value="" placeholder="Apellidos">
                         </div>
                         <div>
-                            <label>Correo-E*</label>
-                            <input type="text" name="correoElectronico" value="" placeholder="Correo-E">
+                            <label for="correoElectronico">Correo-E*</label>
+                            <input type="text" id="correoElectronico" value="" placeholder="Correo-E">
                         </div>
                     </div>
                     <div class="fields">
                         <div>
-                            <label>Localidad</label>
-                            <input type="text" name="localidad" value="" placeholder="Localidad">
+                            <label for="localidad">Localidad</label>
+                            <input type="text" id="localidad" value="" placeholder="Localidad">
                         </div>
                         <div>
-                            <label>Teléfono</label>
-                            <input type="text" name="telefono" value="" placeholder="Teléfono">
+                            <label for="localidad">Teléfono</label>
+                            <input type="text" id="telefono" value="" placeholder="Teléfono">
                         </div>
                     </div>
                     <div class="clearfloat"></div>
+                    <div class="errorText" id="errorDiv">
+                        <p id="errorMessage"></p>
+                    </div>
                     <div class="buttonForm">
-                        <button onclick="cambiarLocationRegistro()" type="button">Registrarse</button>
+                        <button onclick="verificarFormulario()" type="button">Registrarse</button>
                     </div>
                 </form>
             </div>

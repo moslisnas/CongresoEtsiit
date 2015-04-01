@@ -33,6 +33,15 @@
 	margin-top: 0.5%;
 	width: 45%;
 }
+.errorText{
+	display: none;
+	margin-top: 2%;
+}
+#errorMessage{
+	text-align: center;
+	color: red;
+	margin-top: 1%;
+}
 .buttonForm{
 	text-align: center;
 }
