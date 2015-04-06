@@ -14,6 +14,8 @@ Released for free under a Creative Commons Attribution 3.0 Unported License (CC 
     <link href="CSS/main.css" rel="stylesheet" type="text/css" />
     <link href="CSS/boxes.css" rel="stylesheet" type="text/css" />
     <link href="CSS/images.css" rel="stylesheet" type="text/css" />
+    <script src="js/menu.js" type="text/javascript"/></script>
+    <script src="js/slider.js" type="text/javascript"/></script>
 </head>
 
 <body>
@@ -24,7 +26,15 @@ Released for free under a Creative Commons Attribution 3.0 Unported License (CC 
             <ul id="navlist">
                 <li id="active"><a href="#">Inicio</a></li>
                 <li><a href="inscripcion.html">Inscripción</a></li>
-                <li><a href="ponencias.html">Ponencias</a></li>
+                <li>
+                    <a href="ponencias.html" onmouseover="mopen('categoriasPonencias')" onmouseout="mclosetime()">Ponencias</a>
+                    <div class="menu" id="categoriasPonencias" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="ponencias.html#CySI">Sist. Inteligentes</a>
+                    <a href="ponencias.html#IC">Ing Comp.</a>
+                    <a href="ponencias.html#IS">Ing. Software</a>
+                    <a href="ponencias.html#SI">Sist. Inform.</a>
+                    <a href="ponencias.html#TI">Tecn. Inform.</a>
+                </li>
                 <li><a href="actividades.html">Actividades</a></li>
                 <li><a href="informacion.html">Información</a></li>
             </ul>
@@ -34,7 +44,7 @@ Released for free under a Creative Commons Attribution 3.0 Unported License (CC 
 </header>
 
 <div class="container">
-    <section>
+    <section class="leftSection">
         <h1>¡Bienvenido!</h1>
         <p>
         	Para todos aquellos estudiantes y personas interesadas en innovación, investigación, desarrollo de la informática, os recomendamos que acudáis, en Granada, a este evento. Habrá exposiciones por parte de profesionales del ámbito universitario los cuáles compartirán sus experiencias y explicarán que hay que hacer para ser un buen ingeniero en informática y otros aspectos de ámbito profesional.
@@ -57,6 +67,23 @@ Released for free under a Creative Commons Attribution 3.0 Unported License (CC 
             No olvides <a href="inscripcion.html">registrarte</a> y disfrutar de este evento único.
         </p>
     </section>
+</section>
+    <section class="rightSection">
+        <div class="wrapper">
+            <div>Patrocinadores</div>
+            <div id="containerS">
+                <div id="image-slider-wrapper">
+                    <ul id="image_slider">
+                        <li><img src="images/sponsors/1.png"></li>
+                        <li><img src="images/sponsors/2.png"></li>
+                        <li><img src="images/sponsors/3.png"></li>
+                        <li><img src="images/sponsors/4.jpg"></li>
+                    </ul>   
+                </div>
+            </div>
+        <div class="bottom-button"><button>¡Patrocínate!</button></div>
+    </div>
+    </section>
 </div>
 
 <div class="bottomSpace"></div>
@@ -68,7 +95,7 @@ Released for free under a Creative Commons Attribution 3.0 Unported License (CC 
             <div class="rightList">
                 <ul>
                     <li>
-                    <div id="map canvas"><iframe width="380" height="200" alt="Google Maps:Etsiit" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=E.T.S.+de+Ingenierías+Informática+y+de+Telecomunicación,+Granada,+Spain&key=AIzaSyCAIJpaS6cvTDOoy0SDy-g6xnbZ9fHwehg"></iframe></div>
+                    <!-- <div id="map canvas"><iframe width="380" height="200" alt="Google Maps:Etsiit" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=E.T.S.+de+Ingenierías+Informática+y+de+Telecomunicación,+Granada,+Spain&key=AIzaSyCAIJpaS6cvTDOoy0SDy-g6xnbZ9fHwehg"></iframe></div> -->
                     </li>
                     <li>Dirección: C\ Periodista Daniel Saucedo Aranda, 18071 Granada</li>
                 </ul>

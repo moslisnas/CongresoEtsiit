@@ -23,7 +23,7 @@
 	background: rgba(255,255,255,0.6);
 	padding:3px 10px;
 	cursor: pointer;
-	font-size:30px;
+	font-size:180%;
 	font-family: 'Belgrano', sans-serif;
 	-moz-border-radius:17px;
 	-webkit-border-radius:17px;
@@ -37,7 +37,7 @@
 	margin:10px 20px;
 	background: rgba(0,0,0,0);
 	padding:3px 10px;
-	font-size:40px;
+	font-size:250%;
 	font-family: 'Belgrano', sans-serif;
 	border:1px;
 	color:#749b29;
@@ -86,6 +86,21 @@
 .boxesActivities p{
 	margin: 0 0 0 1%;
 	max-width:100%;
+}
+.rightSection button{
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+    border-radius: 17px;
+    color: #394d14;
+    cursor: pointer;
+    text-align:center;
+    font-family: "Belgrano",sans-serif;
+    font-size: 80%;
+    margin: 10px 20px;
+    padding: 3px 10px;
+    vertical-align: bottom;
+}
+.rightSection button:hover{
+	background-color:rgba(255,255,255,1);
 }
 /*--------------------------------------------------------------------------------------------*/
 /********* end ACTIVITIES ********/

@@ -4,7 +4,7 @@
 }
 body {
 	font-family: 'Belgrano', serif;
-	font-size: 14px;
+	font-size: 85%;
 	background: url(../images/background) repeat;
 	color: #2b2b2b;
 	text-shadow: 0px 0px, 1px 1px #ffffff;
@@ -18,26 +18,26 @@ p {
 	margin-bottom: 1%;	
 }
 h1 {
-	font-size:30px;
+	font-size:220%;
 	color:#1a66a1;
 	font-family: 'Lobster', sans-serif;
 	padding: 3% 0 2% 0;
 }
 h2 {
-	font-size:24px;
+	font-size:200%;
 	color:#1a66a1;
 	font-family: 'Lobster', sans-serif;
 }
 h3 {
-	font-size:20px;
+	font-size:120%;
 	color:#000000;
 	font-family:'Belgrano', sans-serif;
-	margin:3% 0 2% 0;
+	margin:2% 0 2% 0;
 	text-shadow: 0px 0px, 1px 1px #ffffff;
 	background: -moz-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.7));
 }
 h4 {
-	font-size:20px;
+	font-size:150%;
 	color:#000000;
 	font-family:'Belgrano', sans-serif;
 	margin:1% 0 1% 1%;
@@ -56,13 +56,42 @@ img {
 	width: 80%;
 	margin: 0 auto;
 }
+
+.leftSection{
+	width:75%;
+	float:left;
+	margin-top:4%;
+}
+.rightSection {
+	float:right;
+	width:25%;
+	margin-top:8%;
+}
+.rightSection .wrapper{
+	height:400px;
+	background:rgba(0,0,0,0.8);
+	border-radius:10px;
+}
+.rightSection div{
+	margin:0% 5% 5% 5%;
+	padding-top:4%;
+	text-align: center;
+	text-shadow:none;
+	font-size:25px;
+	color:white;
+	font-family:"Lobster",sans-serif;
+}
+.rightSection .bottom-button{
+	position: relative;
+	bottom:-5%;
+}
 header {
 	background:url(../images/headerTop.png) repeat-x;
 }
 header .headerContainer {
 	width:80%;
 	margin:0 auto;
-	padding: 0;
+	padding: 0 0 4% 0;
 } 
 header h1 {
 	float:left;
@@ -99,7 +128,7 @@ ul#navlist {
 	white-space: nowrap;
 }
 #navlist li {
-	display: inline;
+	display: inline-block;
 	list-style-type: none;
 }
 #navlist a { 
@@ -128,6 +157,39 @@ ul#navlist {
 	text-shadow:none;
 	background:#ffffff;
 	border: solid #000000 1px;
+	moz-box-shadow:inset 0px 0px 7px 3px #363B40;
+	-webkit-box-shadow:inset 0px 0px 7px 3px #363B40;
+	box-shadow:inset 0px 0px 7px 3px #363B40;
+}
+
+#navlist .menu{
+	padding: 0.8% 0 0 0;
+	margin: 0%;
+	z-index:10;
+	width: auto;
+	position:absolute;
+	visibility: hidden;
+	display:block;
+	background:transparent;
+	list-style:none;
+}
+#navlist .menu a{
+	font-size:105%;
+	white-space:normal;
+	display:block;
+	padding: 2.5% 13%;
+	border-radius:8px;
+}
+#navlist #foldedMenu a{
+	background:none;
+	border:none;
+	box-shadow:none;
+}
+#navlist #foldedMenu a:hover{
+	color: #fff;
+	text-decoration: none;
+	text-shadow:none;
+	background:#1a66a1;
 	moz-box-shadow:inset 0px 0px 7px 3px #363B40;
 	-webkit-box-shadow:inset 0px 0px 7px 3px #363B40;
 	box-shadow:inset 0px 0px 7px 3px #363B40;

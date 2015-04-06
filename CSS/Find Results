@@ -1,0 +1,56 @@
+Searching 35 files for "rightSection" (regex)
+
+/Users/Jointercael/Desktop/SIBW 2015/practica/CongresoEtsiit/actividades.html:
+   76          <!-- end .boxesActivities -->
+   77      </section>
+   78:     <section class="rightSection">
+   79      </section>
+   80  </div>
+
+/Users/Jointercael/Desktop/SIBW 2015/practica/CongresoEtsiit/CSS/main.css:
+   62  	float:left;
+   63  }
+   64: .rightSection wrapper{
+   65  	margin-top:4%;
+   66  	width:25%;
+   ..
+   70  	border-radius:10px;
+   71  }
+   72: .rightSection div{
+   73  	margin:8% 5% 5% 5%;
+   74  	text-align: center;
+
+/Users/Jointercael/Desktop/SIBW 2015/practica/CongresoEtsiit/index.html:
+   67          </p>
+   68      </section>
+   69:     <section class="rightSection">
+   <div class="wrapper"></div>
+   70      </section>
+   71  </div>
+
+/Users/Jointercael/Desktop/SIBW 2015/practica/CongresoEtsiit/informacion.html:
+  122          <!-- end boxInfo -->
+  123      </section>
+  124:     <section class="rightSection"><div class="wrapper">
+  			
+  125          <div>Patrocinadores</div>
+  			</div>
+  126      </section>
+
+/Users/Jointercael/Desktop/SIBW 2015/practica/CongresoEtsiit/inscripcion.html:
+  136          </div>
+  137      </section>
+  138:     <section class="rightSection">
+  <div class="wrapper"></div>
+  139      </section>
+  140  </div>
+
+/Users/Jointercael/Desktop/SIBW 2015/practica/CongresoEtsiit/ponencias.html:
+  163          </section> 
+  164      </section>
+  165:     <section class="rightSection">
+  			<div class="wrapper"></div>
+  166      </section>
+  167  </div>
+
+7 matches across 6 files
