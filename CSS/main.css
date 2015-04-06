@@ -61,14 +61,18 @@ img {
 	width:75%;
 	float:left;
 	margin-top:4%;
+	margin-bottom:30%;
 }
 .rightSection {
 	float:right;
-	width:25%;
-	margin-top:8%;
+	width:240px;
+	margin-top:10%;
+	position:fixed;
+	right:50px;
+	top:40px;
 }
 .rightSection .wrapper{
-	height:400px;
+	height:330px;
 	background:rgba(0,0,0,0.8);
 	border-radius:10px;
 }
@@ -83,7 +87,20 @@ img {
 }
 .rightSection .bottom-button{
 	position: relative;
-	bottom:-5%;
+	bottom:0%;
+}
+#containerS{
+	width:200px;
+	height:202px;
+	padding:0px;
+	margin-top:5%;
+	border:1px solid gray;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+  	background: black;
+  	text-align:center;
+  	margin:auto;
 }
 header {
 	background:url(../images/headerTop.png) repeat-x;
@@ -226,12 +243,14 @@ ul#navlist {
 	color:#dbdbdb;
 	text-shadow:none;
 	font-size:12px;
-	font-weight: bold;;
+	font-weight: bold;
+	position:relative;
+	z-index:5;
 }
 .footerContent {
 	width:80%;
 	margin:0 auto;
-	padding:1% 0;
+	padding:3% 0 5.5% 0;
 }
 .rightList {
 	float: right; 

@@ -23,18 +23,6 @@
     padding:0;
     text-align:center;
 }
-
-#containerS{
-	width:90%;
-	height:202px;
-	padding:0px;
-	margin-top:10%;
-	border:1px solid gray;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-  	background: black;
-}
 #image-slider-wrapper{
 	overflow: hidden;
 	padding-top:0;
