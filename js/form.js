@@ -50,11 +50,10 @@ function verificarFormulario(){
 function comprobarEmail(email){
 	var resultado = false;
 	var textEmail = email.value;
-	for (var i=0; i<textEmail.length; i++) {
-		if(textEmail[i] == "@"){
-			resultado = true;
-		}
-	}
+	var emailRegex = new RegExp("[A-Za-z0-9_.-]+@[A-Za-z0-9]+\\.[A-Za-z]+");
+	
+	if(emailRegex.test(textEmail))
+		resultado = true;
 
 	return resultado;
 }
