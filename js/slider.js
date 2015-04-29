@@ -26,7 +26,7 @@ function init(){
 function slider(){		
 		animate({
 			delay:10,
-			duration: 3000,
+			duration: 4000,
 			delta:function(p){return Math.max(0, -1 + 2 * p)},
 			step:function(delta){
 					ul.style.left = '-' + parseInt(current * image_width + delta * image_width) + 'px';

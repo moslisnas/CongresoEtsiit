@@ -75,13 +75,18 @@
 }
 .boxesActivities li button {
 	margin:10px 20px;
-	background: rgba(0,0,0,0);
+	background: rgba(255,255,255,0.6);
 	padding:3px 10px;
-	cursor:pointer;
-	font-size:40px;
+	cursor: pointer;
+	font-size:180%;
 	font-family: 'Belgrano', sans-serif;
-	border:1px;
-	color:#749b29;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	color:#394D14;
+}
+.boxesActivities li button:hover {
+	background-color:rgba(255,255,255,1);
 }
 .boxesActivities p{
 	margin: 0 0 0 1%;
